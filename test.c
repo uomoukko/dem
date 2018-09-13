@@ -39,7 +39,7 @@ int APIENTRY WinMain(
 {
 ist=istanzacur;
 
-if((FindWindow(0,"TEST"))!=NULL)
+if((FindWindow(0,"test.exe"))!=NULL)
 	{
 	MessageBox(0,"Program is already running","A friendly warning",MB_ICONINFORMATION| MB_OK);
 	return(2);
