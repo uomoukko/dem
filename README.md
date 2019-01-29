@@ -11,7 +11,7 @@ mingw-w64 or other compilers
 
 ## Compiling the source file
 
-    gcc test.c -mwindows
+    gcc test.c -mwindows -o test
 
 ## Bugs
 
